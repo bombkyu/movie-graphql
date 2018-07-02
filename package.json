@@ -5,5 +5,16 @@
   "main": "index.js",
   "repository": "https://github.com/bombkyu/movie-graphql",
   "author": "BK",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1",
+    "global": "^4.3.2",
+    "graphql-yoga": "^1.14.10",
+    "nodemon": "^1.17.5"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  }
 }
